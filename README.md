@@ -21,6 +21,7 @@ Questo è un sistema di pagamento in solana che permette di collegare il wallet 
 
 E' impostato in devnet, per lavorare in mainnet:
     pages\_app.tsx  riga 16: const network = WalletAdapterNetwork.Devnet; ---> const network = WalletAdapterNetwork.Mainnet.
+    pages\api\makeTransaction.ts riga 48 const network = WalletAdapterNetwork.Mainnet
     
 E' necessario agiungere la pubblic key del wallet che riceve i pagamenti:
     lib\addresses.ts  riga 4 export const shopAddress = new PublicKey('...') // immettere eindirizzo wallet al posto di ...
