@@ -32,3 +32,5 @@ Per aggiungere o rimuovere e modificare il prezzo dei prodotti in vendita:
 Per aggiungere la possibilita di connettersi con altri wallet:
     pages\_app.tsx riga 27 new NomewalletWalletAdapter(),
     I wallet disponibili si trovano su node_modules\@solana\
+
+Deploy on https://vercel.com/
